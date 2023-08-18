@@ -1,0 +1,102 @@
+.auth-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b7bec;
+}
+
+h6 {
+    margin: 0px;
+    color: black;
+}
+
+.modal-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title h6 {
+    color: white;
+}
+
+.modal-title button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.video {
+    height: 45vh;
+    width: 300px;
+    background-color: #4b7bec;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px 15px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.video-form {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-video {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 8px;
+}
+
+.form-video label {
+    font-size: 13px;
+    color: white;
+}
+
+.form-video input {
+    font-size: 13px;
+    color: #4b7bec;
+    padding: 5px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.form-video-button {
+    flex: 1;
+    background-color: white;
+    color: #4b7bec;
+    border: 1px solid #4b7bec;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-video-button:hover {
+    background-color: #4b7bec;
+    border: 1px solid white;
+    color: white;
+}
+
+.form-video-advance {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.form-video-advance a {
+    text-decoration: none;
+    color: white;
+}

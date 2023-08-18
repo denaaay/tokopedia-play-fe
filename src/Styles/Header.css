@@ -1,0 +1,39 @@
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #4b7bec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.header div p {
+    font-size: 15px;
+    color: white;
+}
+
+.button-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.button-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.button-header a:hover {
+    color: aquamarine;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: white;
+}

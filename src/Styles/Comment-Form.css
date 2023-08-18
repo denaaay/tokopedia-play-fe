@@ -1,0 +1,28 @@
+.comment-form-add {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form-add textarea {
+    margin-top: 5px;
+    border: 1px solid #4b7bec;
+    border-radius: 5px;
+    color: #4b7bec;
+    padding: 5px;
+}
+
+.comment-form-add button {
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    background-color: #4b7bec;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.comment-form-add button:hover {
+    background-color: white;
+    color: #4b7bec;
+    border: 1px solid #4b7bec;
+}

@@ -1,0 +1,36 @@
+h6 {
+    margin: 0px;
+}
+
+.comment-border {
+    height: 0.5px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #bbbbbb;
+}
+
+.comment-lists {
+    margin-top: 5px;
+}
+
+.comment-lists p {
+    font-size: 12px;
+}
+
+.comment-colom {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.comment-data {
+    color: #4b7bec;
+}
+
+.comment-data span {
+    color: black;
+}
+
+.comment-data span {
+    color: black;
+}
